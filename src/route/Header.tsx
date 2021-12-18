@@ -109,13 +109,6 @@ export function Header(Props: ToggleProps) {
         <Grid container style={styles.topBarMain}>
           <AppBar position="static">
             <Toolbar>
-              <Button
-                color="inherit"
-                href={'https://docs.netmaker.org'}
-                target="_blank"
-              >
-                {t('header.docs')}
-              </Button>
               {isLoggedIn && user!.isAdmin ? (
                 <Button
                   style={{ marginLeft: '1em' }}
