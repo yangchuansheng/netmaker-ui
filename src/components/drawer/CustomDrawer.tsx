@@ -272,17 +272,6 @@ export default function CustomDrawer() {
         </List>
         <Divider />
         <List>
-          <ListItemButton
-            component={'a'}
-            href="https://docs.netmaker.org"
-            target="_blank"
-            rel="noopener noreferer"
-          >
-            <ListItemIcon aria-label={t('header.docs')}>
-              <LibraryBooks />
-            </ListItemIcon>
-            <ListItemText primary={t('header.docs')} />
-          </ListItemButton>
           {showAuthButton &&
             (isLoggedIn ? (
               <>
