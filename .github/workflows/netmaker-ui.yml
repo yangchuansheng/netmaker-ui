@@ -13,13 +13,8 @@ name: Build and push netmaker-ui Docker image
 on:
   push:
     branches: [ master ]
-    paths: 
-      - './*'
-      - '.github/workflows/netmaker-ui.yml'
   pull_request:
     branches: [ master ]
-    paths: 
-      - './*'
   #watch:
     #types: started
 
