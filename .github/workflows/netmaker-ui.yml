@@ -14,12 +14,12 @@ on:
   push:
     branches: [ master ]
     paths: 
-      - '*'
+      - './*'
       - '.github/workflows/netmaker-ui.yml'
   pull_request:
     branches: [ master ]
     paths: 
-      - '*'
+      - './*'
   #watch:
     #types: started
 
